@@ -10,19 +10,20 @@
 </head>
 <body>
     <h1>Ini adalah canvas</h1>
-    <canvas id='main' width="600" height="800"></canvas>
+    <canvas id='mainc' width="600" height="800"></canvas>
 
     <script>
-    var canvas = new fabric.Canvas('main')
+    var canvas = new fabric.Canvas('mainc')
     var rect = new fabric.rect({
         left: 100,
         top: 150,
         fill: 'red',
         width: 200,
-        height: 200
+        height: 300
     });
 
     canvas.add(rect);
+    
     </script>
 </body>
 </html>
