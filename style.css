@@ -15,11 +15,11 @@ body {
 }
 
 #bg {
-    position: relative;
+    position: absolute;
     z-index: 0;
 }
 
 #mainc {
-    position: relative;
-    z-index: 20;
+    position: absolute;
+    z-index: 1;
 }
