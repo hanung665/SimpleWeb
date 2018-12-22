@@ -1,3 +1,10 @@
+container {
+    display: inline-block;
+    position: relative;
+    margin : auto;
+    text-align: center;
+}
+
 mainc {
     position: relative;
     z-index: 20;
