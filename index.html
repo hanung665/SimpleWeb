@@ -15,7 +15,7 @@
      
         <img class='tshirt' src="pT5oAMK7c.jpg" alt="" width="1000"/>
         <canvas id="bg" width="1000" height="1200"></canvas>
-        <canvas id='mainc' width="1000" height="1200"></canvas>
+        <canvas id='mainc' width="800" height="1000"></canvas>
     
     
     </div>
@@ -24,10 +24,10 @@
         var imgBg = document.getElementById('tshirt');
         var imgInstance = new fabric.Image(imgBg, {
             left : 0,
-            top : 0;
+            top : 0
         });
         canvas.add(imgInstance);
-        
+
         var canvas = new fabric.Canvas('mainc');
     //var canvas = document.getElementById("mainc");
         var rect = new fabric.Rect({
