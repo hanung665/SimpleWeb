@@ -14,12 +14,12 @@ body {
     border-radius: 10px;
 }
 
-/* #bg {
+#bg {
     position: relative;
-    z-index: 50;
+    z-index: 0;
 }
 
 #mainc {
     position: relative;
     z-index: 20;
-} */
+}
