@@ -9,8 +9,9 @@ body {
 #container {
     display: inline-block;
     position: relative;
-    margin : auto;
-    text-align: center;
+    margin : 0 auto;
+    background: black;
+    border-radius: 10px;
 }
 
 #mainc {
