@@ -1,11 +1,19 @@
-container {
+body {
+    text-align: center;
+}
+.img {
+    position: absolute;
+    z-index: 1;
+}
+
+#container {
     display: inline-block;
     position: relative;
     margin : auto;
     text-align: center;
 }
 
-mainc {
+#mainc {
     position: relative;
     z-index: 20;
 }
